@@ -28,8 +28,8 @@ This Java program reads a list of JSON objects from a JSON file, processes each 
      {
        "type": "first repeating",
        "input": "skrrt"
-     },
-     ...
+     }
+     
    ]
 4. Open a terminal or command prompt and navigate to the project directory.
 
