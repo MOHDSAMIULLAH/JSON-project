@@ -2,7 +2,8 @@
 
 This Java program reads a list of JSON objects from a JSON file, processes each object based on the type of question, and writes the output to another JSON file.
 
-![image](https://github.com/MOHDSAMIULLAH/jsonproject/assets/91786605/538d3c89-9859-4ed1-b35a-f3e9e49d001a)
+![image](https://github.com/MOHDSAMIULLAH/JSON-project/assets/91786605/858fc276-a09a-4492-a07e-b1d00760d150)
+
 
 ## Requirements
 
