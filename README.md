@@ -56,4 +56,5 @@ First Non-Repeating Character: The program utilizes an integer array count of si
 
 First Repeating Character: The program uses a boolean array visited of size 256 to keep track of characters that have been visited. It iterates over the characters in the input string once and checks if a character has been visited before. If a character has already been visited, it is considered the first repeating character. The boolean array allows efficient checking of visited characters.
 
+### why I choose this data structures
 <p>These data structures are chosen for their simplicity and efficiency in solving the given problems. The integer array and boolean array provide constant-time access and require minimal memory overhead.</p>
