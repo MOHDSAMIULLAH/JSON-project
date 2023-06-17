@@ -49,11 +49,11 @@ This will process the input JSON file and generate an output JSON file named out
 
 The program uses the json-simple library (https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple/1.1.1) for parsing and manipulating JSON data. You can include the library by downloading the JAR file and adding it to your project's dependencies.
 
-## Solution Summary
+##  Quick summary of my decisions on how I came up with the solution
 The solution uses two different approaches to find the first non-repeating and first repeating characters in a given input string. Here's a summary of the decisions made:
 
 First Non-Repeating Character: The program utilizes an integer array count of size 256 to store the frequency of each character in the input string. It iterates over the characters in the input string twice: first to count the frequency and then to find the first non-repeating character. The array provides constant-time access to the count of each character.
 
 First Repeating Character: The program uses a boolean array visited of size 256 to keep track of characters that have been visited. It iterates over the characters in the input string once and checks if a character has been visited before. If a character has already been visited, it is considered the first repeating character. The boolean array allows efficient checking of visited characters.
 
-These data structures are chosen for their simplicity and efficiency in solving the given problems. The integer array and boolean array provide constant-time access and require minimal memory overhead.
+<p>These data structures are chosen for their simplicity and efficiency in solving the given problems. The integer array and boolean array provide constant-time access and require minimal memory overhead.</p>
